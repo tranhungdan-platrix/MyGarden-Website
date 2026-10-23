@@ -22,8 +22,8 @@ en_content = re.sub(r'data-image-src="images/', 'data-image-src="../images/', en
 
 # Language switcher in en/index.html
 en_content = re.sub(
-    r'<a href="index\.html" class="active">🇻🇳 VN</a>\s*<span class="lang-sep">\|</span>\s*<a href="en/index\.html">🇬🇧 EN</a>',
-    '<a href="../index.html">🇻🇳 VN</a> <span class="lang-sep">|</span> <a href="index.html" class="active">🇬🇧 EN</a>',
+    r'<a href="index\.html" class="active">VN</a>\s*<span class="lang-sep">/</span>\s*<a href="en/index\.html">EN</a>',
+    '<a href="../index.html">VN</a> <span class="lang-sep">|</span> <a href="index.html" class="active">EN</a>',
     en_content
 )
 
@@ -214,8 +214,8 @@ def translate_detail_page(filename, title_en, why_us_text_en, garden_text_en):
 
     # Lang switcher
     c = re.sub(
-        r'<a href="' + filename + r'" class="active">🇻🇳 VN</a>\s*<span class="lang-sep">\|</span>\s*<a href="en/' + filename + r'">🇬🇧 EN</a>',
-        '<a href="../' + filename + '">🇻🇳 VN</a> <span class="lang-sep">|</span> <a href="' + filename + '" class="active">🇬🇧 EN</a>',
+        r'<a href="' + filename + r'" class="active">VN</a>\s*<span class="lang-sep">/</span>\s*<a href="en/' + filename + r'">EN</a>',
+        '<a href="../' + filename + '">VN</a> <span class="lang-sep">|</span> <a href="' + filename + '" class="active">EN</a>',
         c
     )
 
