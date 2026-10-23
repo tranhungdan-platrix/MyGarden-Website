@@ -610,3 +610,37 @@ input[type=number]::-webkit-outer-spin-button
 	color: #393939 !important;
 	line-height: 0.75 !important;
 }
+
+/* Language Switcher */
+.lang-switcher {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	margin-left: 24px;
+	background: rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	border: 1px solid rgba(255, 255, 255, 0.35);
+	border-radius: 20px;
+	padding: 4px 12px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+.lang-switcher a {
+	color: rgba(255, 255, 255, 0.7);
+	text-decoration: none;
+	transition: all 0.25s ease;
+}
+.lang-switcher a:hover {
+	color: #ffa37b;
+}
+.lang-switcher a.active {
+	color: #ffffff;
+	font-weight: 700;
+	border-bottom: 2px solid #ffa37b;
+}
+.lang-switcher .lang-sep {
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 11px;
+}
