@@ -592,17 +592,21 @@ section
 }
 .home_title
 {
-	font-size: 90px;
+	font-size: clamp(32px, 4.2vw, 52px);
 	font-weight: 600;
 	background: linear-gradient(to right, #ffd15a, #d0982a);
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
-	line-height: 1.2;
+	line-height: 1.25;
+}
+.home_slider .home_title
+{
+	font-size: clamp(40px, 6vw, 76px);
 }
 .home_description {
-	margin-top: 20px;
-	font-size: 30px;
+	margin-top: 15px;
+	font-size: clamp(16px, 2vw, 22px);
 	font-weight: 600;
 	color: #ffffff;
 	animation: fadeInDown 2s ease-out forwards;

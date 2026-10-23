@@ -242,7 +242,11 @@
 	}
 	.home_title
 	{
-		font-size: 72px;
+		font-size: 34px !important;
+	}
+	.home_description
+	{
+		font-size: 18px !important;
 	}
 	.booking_input_container > div
 	{
@@ -348,7 +352,11 @@
 	}
 	.home_title
 	{
-		font-size: 56px;
+		font-size: 28px !important;
+	}
+	.home_description
+	{
+		font-size: 16px !important;
 	}
 	.home_slider_dots_container
 	{
@@ -470,7 +478,11 @@
 	}
 	.home_title
 	{
-		font-size: 40px;
+		font-size: 24px !important;
+	}
+	.home_description
+	{
+		font-size: 14px !important;
 	}
 	.booking_input
 	{
