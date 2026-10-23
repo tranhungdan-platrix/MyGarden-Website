@@ -1,0 +1,6 @@
+wp-config.php
+*.sql
+*.zip
+*.tar.gz
+.env
+node_modules/
